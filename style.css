@@ -74,7 +74,34 @@
   float: left;
 }
 
+.content-box {
+  border: 1px solid red;
+  width: 70%;
+  margin: auto;
+}
 
+.ml-5 {
+  margin-left: 5%;
+}
+
+.clearfix::after {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+.col {
+    float: left;
+}
+
+.col-30 {
+  background-color: white;
+  border: 1px solid black;
+  text-align: center;
+  width: 30%;
+}
+
+/*
 .box-left {
   background-color: white;
   border: 1px solid black;
@@ -111,11 +138,15 @@
   padding: 10px;
   margin-left: 600px;
   float: left;
-}
+}*/
 
 
 /* selecond-main style*/
 
+.second-main {
+  background-color: #3bfbe4;
+  text-align: center;
+}
 table {
   border-collapse: collapse;
   margin: auto;
@@ -124,4 +155,43 @@ table {
   border: 1px solid black;
   margin-top: 100px;
   padding: 50px;
+}
+/* terz-main style*/
+
+.terz-main > .one-box {
+  float: left;
+  height: 200px;
+  width: 150px;
+  border: 1px solid black;
+  margin-left: 200px;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.two-box {
+  float: right;
+  border: 2px solid black;
+  height: 100px;
+  width: 500px;
+  margin-right: 200px;
+  margin-top: 50px;
+}
+
+.three-box {
+  height: 300px;
+  width: 370px;
+  border: 1px solid black;
+  margin-left: 200px;
+  margin-top: 300px;
+  padding: 20px;
+}
+
+.four-box {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  position: relative;
+  float: right;
+  bottom: 320px;
+  right: 250px;
 }
