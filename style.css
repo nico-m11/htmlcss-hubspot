@@ -75,7 +75,6 @@
 }
 
 .content-box {
-  border: 1px solid red;
   width: 70%;
   margin: auto;
 }
@@ -99,6 +98,7 @@
   border: 1px solid black;
   text-align: center;
   width: 30%;
+  margin-top: 30px;
 }
 
 /*
@@ -158,40 +158,18 @@ table {
 }
 /* terz-main style*/
 
-.terz-main > .one-box {
+.terz-main {
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.one-box {
+  border: 1px solid black;
   float: left;
-  height: 200px;
-  width: 150px;
-  border: 1px solid black;
-  margin-left: 200px;
-  margin-top: 50px;
-  padding: 20px;
-}
+  text-align: center;
+  width: 40%;
+  margin: 50px;
 
-.two-box {
-  float: right;
-  border: 2px solid black;
-  height: 100px;
-  width: 500px;
-  margin-right: 200px;
-  margin-top: 50px;
-}
-
-.three-box {
-  height: 300px;
-  width: 370px;
-  border: 1px solid black;
-  margin-left: 200px;
-  margin-top: 300px;
-  padding: 20px;
-}
-
-.four-box {
-  width: 300px;
-  height: 300px;
-  border: 1px solid black;
-  position: relative;
-  float: right;
-  bottom: 320px;
-  right: 250px;
 }
