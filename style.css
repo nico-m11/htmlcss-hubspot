@@ -170,6 +170,58 @@ table {
   float: left;
   text-align: center;
   width: 40%;
-  margin: 50px;
+  margin: 5px;
+}
 
+/* footer*/
+.col-25 {
+  border: 1px solid black;
+  text-align: center;
+  width: 20%;
+  margin-top: 30px;
+  position: relative;
+
+}
+
+.box-footer {
+ width: 100%;
+ margin: auto;
+ position: absolute;
+ margin-top: 25%;
+ background-color: lightblue;
+}
+
+.ml-2 {
+  margin-left: 3%;
+}
+
+/*footer*/
+
+.final {
+  height: 40%;
+  border-bottom: 2px solid white;
+  text-align: center;
+  margin-top: 250px;
+  font: white;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.lenguage {
+  display: inline;
+  padding-right: 5px;
+  margin-top: 5px;
+}
+
+.copyright {
+  float: left;
+  margin-left: 5%;
+  padding: 15px;
+}
+
+.privacy {
+  float: right;
+  margin-right: 5%;
+  margin-top: 5px;
+  padding: 15px;
 }
