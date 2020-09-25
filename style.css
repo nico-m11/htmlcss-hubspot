@@ -93,9 +93,7 @@ input {
 /* main style */
 
 .contenitor-main {
-  background-color: lightgrey;
   padding-top: 50px;
-  text-align: center;
   margin: auto;
 }
 
@@ -113,36 +111,42 @@ input {
   width: 15%;
   margin: auto;
   background-color: blue;
-
-
 }
+
+.powerful-2 {
+  text-align: center;
+}
+
 #learn {
   position: relative;
-  right: 35%;
-  top: 120px;
+  left: 10%;
+  top: 180px;
   font-size: 25px;
 }
 
 .fa-book {
   position: relative;
-  right: 29%;
-  top: 25px;
+  left: 18%;
+  top: 125px;
 }
 .content-box-large {
-  border: 2px solid red;
   width: 50%;
   position: relative;
   left: 50%;
   position: relative;
   bottom: 20px;
+  padding: 5%;
 }
 .content-box {
   width: 70%;
   margin: auto;
 }
 
+.pd-5 {
+  padding: 5%
+}
 .ml-5 {
-  margin-left: 5%;
+  margin-left: 5%;;
 }
 
 .clearfix::after {
@@ -214,16 +218,30 @@ input {
 .second-main {
   background-color: #3bfbe4;
   text-align: center;
+  padding: 5%;
+  width: 100%;
 }
 table {
   border-collapse: collapse;
   margin: auto;
 }
   table, tr, td {
-  border: 1px solid black;
   margin-top: 100px;
   padding: 50px;
 }
+
+.box-up {
+  border-bottom: 2px solid white;
+}
+
+.box-down {
+  border-top: 2px solid white;
+}
+
+.bl {
+  border-left: 2px solid white;
+}
+
 /* terz-main style*/
 
 .terz-main {
