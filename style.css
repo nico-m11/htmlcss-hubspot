@@ -6,17 +6,42 @@
 /*Log-in style */
 .log-in-contact {
   background-color: #add6e4;
-  height: 50px;
+  height: 80px;
   border-bottom: 2px solid black;
+
+}
+ul {
+  overflow: hidden;
+  list-style-type: none;
+}
+li {
+  float: left;
+  margin: 5px;
+}
+li:nth-child(1) {
+  clear: left;
+}
+
+.contact {
+ display: inline-block;
+ margin: 10px;
+ padding: 5px;
+}
+
+.contact-2 {
+  border-left: 1px solid black;
+  padding-left: 15px;
 }
 
 .enter {
-  display: inline;
   float: right;
+  margin: 10px;
+  padding: 5px;
 }
-.contact {
-  display: inline;
+input {
+  background-color: orange;
 }
+
 
 /*contenitor-nav-style*/
 .contenitor-nav-bar {
@@ -32,7 +57,12 @@
 /* logo style */
 
 .logo {
-  float: left;
+  position: relative;
+  height: 40px;
+  width: 60px;
+  background-color: blue;
+  left: 50px;
+  bottom: 15px;
 }
 
 /*central-header*/
@@ -43,9 +73,15 @@
 }
 
 .content-header {
-  margin-left: 15%;
-  padding-top: 10%;
-  margin-right: 60%;
+  position: relative;
+  top: 40px;
+  left: 150px;
+  padding: 50px;
+  width: 20%;
+}
+
+#preventiv {
+  font-size: 30px;
 }
 
 .separator {
@@ -60,20 +96,46 @@
   background-color: lightgrey;
   padding-top: 50px;
   text-align: center;
+  margin: auto;
 }
 
 .box-large {
   background-color: white;
   border: 2px solid black;
   padding: 10px;
-  margin-top: 5px;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-#learn {
-  float: left;
+  width: 70%;
+  margin: auto;
 }
 
+.powerful {
+  border: 2px red dotted;
+  height: 200px;
+  width: 15%;
+  margin: auto;
+  background-color: blue;
+
+
+}
+#learn {
+  position: relative;
+  right: 35%;
+  top: 120px;
+  font-size: 25px;
+}
+
+.fa-book {
+  position: relative;
+  right: 29%;
+  top: 25px;
+}
+.content-box-large {
+  border: 2px solid red;
+  width: 50%;
+  position: relative;
+  left: 50%;
+  position: relative;
+  bottom: 20px;
+}
 .content-box {
   width: 70%;
   margin: auto;
@@ -88,9 +150,11 @@
   content: '';
   clear: both;
 }
-
-.col {
-    float: left;
+.col{
+  float: left;
+}
+.col-1 {
+    padding: 5%;
 }
 
 .col-30 {
@@ -99,6 +163,10 @@
   text-align: center;
   width: 30%;
   margin-top: 30px;
+}
+
+#learn-2 {
+ font-size: 15px;
 }
 
 /*
