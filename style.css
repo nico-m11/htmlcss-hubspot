@@ -30,7 +30,8 @@ li:nth-child(1) {
 .contact {
  display: inline-block;
  margin: 5px;
- padding: 5px;
+ padding: 10px;
+ margin-left: 10%;
 }
 
 .paragraf {
@@ -39,13 +40,18 @@ li:nth-child(1) {
 }
 .contact-2 {
   border-left: 1px solid black;
-  padding-left: 15px;
+  padding-left: 10px;
 }
 
 .enter {
   float: right;
   margin: 10px;
-  padding: 5px;
+  padding: 10px;
+  margin-right: 10%;
+}
+.lg-in{
+  color: orange;
+  background-color: white;
 }
 input {
   background-color: orange;
@@ -61,7 +67,9 @@ input {
 .nav-item {
   float: right;
   display: inline-block;
-  margin: 2px;
+  margin: 8px;
+  position: relative;
+  right: 10%;
 }
 /* logo style */
 
@@ -70,8 +78,8 @@ input {
   height: 40px;
   width: 60px;
   background-image: url("");
-  left: 50px;
-  bottom: 15px;
+  left: 10%;
+  bottom: 18px;
 }
 
 /*central-header*/
