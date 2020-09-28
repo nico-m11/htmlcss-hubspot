@@ -125,10 +125,10 @@ input {
   font-size: 25px;
 }
 
-.fa-book {
+.book-img {
   position: relative;
-  left: 18%;
-  top: 125px;
+  left: 23%;
+  top: 100px;
 }
 .content-box-large {
   width: 50%;
@@ -276,12 +276,13 @@ table {
   height: 150px;
   left: 60%;
   bottom: 20%;
-
 }
+
+
 
 /* footer*/
 .col-25 {
-  border: 1px solid black;
+
   text-align: center;
   width: 20%;
   margin-top: 30px;
@@ -291,10 +292,10 @@ table {
 
 .box-footer {
  width: 100%;
- margin-top: 0;
  position: absolute;
  margin-top: 25%;
- background-color: lightblue;
+ background-color: #3183E0;
+
 
 }
 
@@ -307,17 +308,19 @@ table {
 .final {
   height: 40%;
   border-bottom: 2px solid white;
-  text-align: center;
   margin-top: 250px;
-  font: white;
   margin-left: 5%;
   margin-right: 5%;
 }
-
+.ul-center {
+  position: relative;
+  margin-left: 40%;
+}
 .lenguage {
   display: inline;
   padding-right: 5px;
   margin-top: 5px;
+  text-align: center;
 }
 
 .copyright {
